@@ -1,0 +1,78 @@
+@import url(/css/global.css);
+
+.big {
+  color: black;
+  font-size: 18px;
+}
+
+.small {
+  display: flex;
+  gap: 16px;
+  height: 20px;
+  font-size: 16px;
+}
+
+.pluto {
+  width: 2px;
+  height: 2px;
+  background-color: #977256;
+}
+
+.neptune {
+  width: 139px;
+  height: 139px;
+  background-color: #4682b4;
+  margin-bottom: 1624px;
+}
+
+.uranus {
+  width: 144px;
+  height: 144px;
+  background-color: #66cdaa;
+  margin-bottom: 1786px;
+}
+
+.saturn {
+  width: 330px;
+  height: 330px;
+  background-color: #daa520;
+  margin-bottom: 892px;
+}
+
+.jupiter {
+  width: 396px;
+  height: 396px;
+  background-color: #ffa500;
+  margin-bottom: 438px;
+}
+
+.mars {
+  width: 10px;
+  height: 10px;
+  background-color: #ff4500;
+}
+
+.earth {
+  width: 18px;
+  height: 18px;
+  background-color: #1e90ff;
+}
+
+.venus {
+  width: 17px;
+  height: 17px;
+  background-color: #d9c3a7;
+}
+
+.mercury {
+  width: 7px;
+  height: 7px;
+  background-color: #b0b0b0;
+}
+
+.sun {
+  width: 14364px;
+  height: 14364px;
+  background-color: #ffd700;
+  margin-bottom: 64px;
+}

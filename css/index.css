@@ -1,0 +1,26 @@
+@import url(./global.css);
+
+.systems-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.systems-links a {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--secondary-black);
+  background-color: var(--text-base);
+  border: 1px solid var(--text-base);
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  transition: 0.2s;
+}
+
+.systems-links a:hover {
+  color: var(--text-base);
+  background-color: var(--secondary-black);
+  transition: 0.2s;
+}

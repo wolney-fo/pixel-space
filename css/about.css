@@ -1,0 +1,59 @@
+@import url(./global.css);
+
+body {
+  text-align: center;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+main {
+  padding: 6rem 0;
+}
+
+h1,
+h2,
+p,
+ol,
+ul {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+li {
+  list-style-position: inside;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #e1e1e1;
+}
+
+article {
+  max-width: 700px;
+  padding: 4rem;
+  margin: auto;
+  background-color: var(--secondary-black);
+  border-radius: 0.5rem;
+  border: 1px solid var(--main-border);
+  text-align: justify;
+}
+
+article > a {
+  display: inline-block;
+  color: #e1e1e1;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  padding: 0.6rem 1rem;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 2rem;
+}
+
+article > a:hover {
+  background-color: transparent;
+  transition: 0.3s;
+}

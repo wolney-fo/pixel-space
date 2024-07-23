@@ -1,0 +1,21 @@
+@import url(/css/global.css);
+
+.back-to-home,
+.about {
+  text-align: center;
+  text-decoration: none;
+  
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+}
+
+.back-to-home {
+  color: #000000;
+  background-color: var(--text-base);
+}
+
+.about {
+  color: var(--text-base);
+  background-color: var(--accent-violet);
+}
